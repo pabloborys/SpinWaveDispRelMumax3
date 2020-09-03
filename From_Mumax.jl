@@ -1,4 +1,4 @@
-using CSV, DataFrames, FFTW, Glob, DSP, Plots
+using CSV, DataFrames, FFTW, Glob, DSP
 
 csv_files=glob("m_x*.csv","Path_to_directory_from_mumax3.out/")
 text_files=[]
